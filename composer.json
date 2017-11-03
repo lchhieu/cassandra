@@ -19,8 +19,8 @@
     },
     "autoload": {
         "psr-0": {
-            "sonvq\\Cassandra": "src/",
-            "sonvq\\Eloquent": "src/"
+            "lchhieu\\Cassandra": "src/",
+            "lchhieu\\Eloquent": "src/"
         }
     },
     "autoload-dev": {
