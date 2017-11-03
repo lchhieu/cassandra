@@ -1,0 +1,33 @@
+{
+    "name": "lchhieu/cassandra",
+    "description": "Cassandra Eloquent model and Query builder for Laravel",
+    "keywords": ["laravel","eloquent","cassandra","database","model"],
+    "authors": [
+        {
+            "name": "Custom by lchhieu",
+        }
+    ],
+    "license" : "MIT",
+    "require": {
+        "illuminate/support": "^5.2.*",
+        "illuminate/container": "^5.2.*",
+        "illuminate/database": "^5.2.*",
+        "illuminate/events": "^5.2.*"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-0": {
+            "sonvq\\Cassandra": "src/",
+            "sonvq\\Eloquent": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php",
+            "tests/models",
+            "tests/seeds"
+        ]
+    }
+}
